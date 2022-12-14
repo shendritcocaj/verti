@@ -185,12 +185,13 @@ body {
     padding: 10rem 0;
     display: flex;
     flex-direction: column;
+
     @media (max-width: 760px) {
       padding: 2rem 0;
     }
 
     .letgo {
-      background-color: rgb(16, 139, 216);
+      background-color: #108bd8;
       color: #fff;
       font-size: 3.5rem;
       border-radius: 8px;
@@ -199,6 +200,9 @@ body {
       font-weight: bolder;
       font-family: Verdana, Geneva, Tahoma;
       margin-bottom: 1rem;
+      &:hover {
+        background-color: #106ba3;
+      }
       @media (max-width: 1370px) {
         font-size: 2.5rem;
         padding: 2rem 10rem;
@@ -339,6 +343,9 @@ body {
         font-family: Verdana, Geneva, Tahoma;
         margin-top: 3rem;
         max-width: max-content;
+        &:hover {
+          background-color: #106ba3;
+        }
         @media (max-width: 1370px) {
           font-size: 2rem;
         }
@@ -421,6 +428,9 @@ body {
         font-family: Verdana, Geneva, Tahoma;
         margin-top: 3rem;
         max-width: max-content;
+        &:hover {
+          background-color: #106ba3;
+        }
         @media (max-width: 1370px) {
           font-size: 2rem;
         }

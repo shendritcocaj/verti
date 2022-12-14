@@ -253,6 +253,10 @@ body {
   text-decoration: none;
 }
 
+.info .buttons .letgo:hover {
+  background-color: #106ba3;
+}
+
 @media (max-width: 1370px) {
   .info .buttons .letgo {
     padding: 2rem 10rem;
@@ -421,6 +425,10 @@ body {
   text-decoration: none;
 }
 
+.about_section .about .images a:hover {
+  background-color: #106ba3;
+}
+
 @media (max-width: 1370px) {
   .about_section .about .images a {
     font-size: 2rem;
@@ -534,6 +542,10 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   text-decoration: none;
+}
+
+.about_section .about .about_text a:hover {
+  background-color: #106ba3;
 }
 
 @media (max-width: 1370px) {
